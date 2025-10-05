@@ -24,7 +24,7 @@ begin
 			when "100" => output <= "00010000";
 			when "101" => output <= "00100000";
 			when "110" => output <= "01000000";
-			when others => output <= "00000000";
+			when others => output <= "10000000";
 		end case;
 	end process;
 end behavioral;
